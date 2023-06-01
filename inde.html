@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="css-3.svg" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_42</title>
+    <style>
+        .d0{
+            position: sticky;
+            top: 0px;
+        }
+         .d{
+            background-color:dimgrey;
+            height: 70px;
+            position: relative;
+            top:0px;
+        }
+         button{
+            color: bisque;
+            font-size: small;
+        }
+        .b1{
+            background-color: dimgray;
+            left: 20px;
+            width: 65px;
+            height: 70px;
+            border: 0px solid black;
+                       
+        }
+         .b1:hover{color: aquamarine;background-color: black;}
+        
+         .b2{
+            background-color: dimgray;
+            width: 110px;
+            height: 70px;
+            left: 80px;
+            border: 0px solid black;
+            
+        }
+        .b2:hover{color: aquamarine;background-color: black;}
+        .b2:hover .n{display:block; z-index: -1;}
+         .b3{
+            background-color: dimgray;
+            width: 150px;
+            height: 70px;
+            left: 230px;
+            border: 0px solid black;
+        }
+        .b3:hover{color: aquamarine;background-color: black;}
+         .b4{
+            background-color: dimgray;
+            width: 100px;
+            height: 70px;
+            left: 400px;
+            border: 0px solid black;
+        }
+         .b4:hover{color: aquamarine;background-color: black;}
+         .b5{
+            background-color: dimgray;
+            width: 160px;
+            height: 70px;
+            left: 1750px;
+            position: absolute;
+            border: 0px solid black;
+        }
+         .b5:hover{color: aquamarine;background-color: black;}
+         .n{
+            display:none ;
+            background-color: white;
+            width: 110px;
+            height: 140px;
+            position: absolute;
+            top: 70px;
+            left: 65px;
+        }
+        h4{
+            background-color: black;
+            transition-property: background-color, color, transform;
+            transition-duration:0s, 0s, 1s;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        h4:hover{
+            background-color: black;
+            color: chartreuse;
+            transform: rotate(-15deg);
+            transform-origin:1%, 0%, 0 ;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="d0">
+        <div class="d">
+        <div><button class="b1">Uy</button><button class="b2">To'garaklar
+                <div class="n">
+                    <h4>Dasturlash</h4>
+                    <h4>Robototexnika</h4>
+                    <h4>Ingliz tili</h4>
+                    <h4>Rus tili</h4>
+                </div>
+            </button>
+            <button class="b3">Barkamol Avlod</button><button class="b4">Yangiliklar</button><button class="b5">Saytga kirish</button>
+        </div>
+        </div>
+        </div>
+</body>
+</html>
